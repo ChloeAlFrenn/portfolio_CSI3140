@@ -80,3 +80,12 @@ hr {
   margin-bottom: -20px;
   width:60px;
 }
+
+#resume_body h2 {
+  margin-top: 25px;
+}
+#resume_body_h4 {
+  text-align: right;
+}
+
+
