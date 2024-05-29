@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #ce742b;
+  background-color: #153448;
   padding: 1rem 0;
 }
 
@@ -27,4 +27,48 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #ddae88;
+}
+#home_page_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text: black;
+  background-color:#EEEEEE;
+  height: 100%;
+  padding: 25px;
+}
+#resume_body {
+  text: black;
+  background-color:#EEEEEE;
+  height: 100%;
+  padding: 25px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border:none;
+  margin-top: -15px;
+}
+
+#item_header {
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+#item_header_name {
+  display: flex;
+  justify-content:right;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+#location {
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+#click_logo{
+  margin-top:15px;
+  width:60px;
 }
