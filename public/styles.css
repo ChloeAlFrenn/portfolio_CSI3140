@@ -15,6 +15,7 @@ nav ul {
   display: flex;
   justify-content: right;
   padding-right: 5px;
+  align-items: center;
 }
 
 nav ul li a {
@@ -24,7 +25,9 @@ nav ul li a {
   display: block;
   font-weight: thin;
 }
-
+nav ul li:first-child {
+  margin-right: auto;
+}
 nav ul li a:hover {
   color: #ddae88;
 }
@@ -69,6 +72,11 @@ hr {
   margin-top: -10px;
 }
 #click_logo{
+  margin-top:15px;
+  width:60px;
+}
+
+#uott_logo{
   margin-top:15px;
   width:60px;
 }
