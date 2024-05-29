@@ -1,5 +1,6 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background-color: #eeeeee;
   margin: 0;
   padding: 0;
 }
@@ -29,21 +30,21 @@ nav ul li:first-child {
   margin-right: auto;
 }
 nav ul li a:hover {
-  color: #ddae88;
+  color: #88c1dd;
 }
-#home_page_body{
+#home_page_body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  text: black;
-  background-color:#EEEEEE;
+  color: black;
+  background-color: #eeeeee;
   height: 100%;
   padding: 25px;
 }
 #resume_body {
-  text: black;
-  background-color:#EEEEEE;
+  color: black;
+  background-color: #eeeeee;
   height: 100%;
   padding: 25px;
 }
@@ -51,19 +52,19 @@ nav ul li a:hover {
 hr {
   height: 2px;
   background-color: black;
-  border:none;
+  border: none;
   margin-top: -15px;
 }
 
 #item_header {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 0px;
   margin-top: -10px;
 }
 #item_header_name {
   display: flex;
-  justify-content:right;
+  justify-content: right;
   margin-bottom: 0px;
   margin-top: -10px;
 }
@@ -71,21 +72,58 @@ hr {
   margin-bottom: -10px;
   margin-top: -10px;
 }
-#click_logo{
-  margin-top:15px;
-  width:60px;
+#click_logo {
+  margin-top: 15px;
+  width: 60px;
 }
 
-#uott_logo{
+#uott_logo {
   margin-bottom: -20px;
-  width:60px;
+  width: 60px;
 }
 
-#resume_body h2 {
+h2 {
   margin-top: 25px;
 }
-#resume_body_h4 {
-  text-align: right;
+
+h3 {
 }
 
+#resume_body_h4 {
+    text-align: right;
+  }
 
+h1 {
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+#projects {
+  background-color: #eeeeee;
+  height: 100%;
+  padding: 25px;
+}
+
+#projects ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+#projects ul li a {
+  text-decoration: none;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+    border: 3px solid #153448;
+    border-radius: 10px;
+  }
